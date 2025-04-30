@@ -1,15 +1,6 @@
 {
-  "builds": [
-    {
-      "src": "dist/memoteca/**",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/dist/memoteca/$1"
-    }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
   
