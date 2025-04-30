@@ -14,7 +14,8 @@ export class ExcluirPensamentoComponent {
   pensamento: Pensamento = {
     conteudo: '',
     autoria: '',
-    modelo: ''
+    modelo: '',
+    favorito: false
   }
 
   constructor(
